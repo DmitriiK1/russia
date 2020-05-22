@@ -1,0 +1,32 @@
+.lead{
+    width: 90vw;
+    margin: 3rem auto 0rem;
+    font-family: Inter;
+    font-style: normal;
+
+    &__title{
+        margin: 0rem auto;       
+        font-weight: 900;
+        font-size: 6rem;
+        line-height: 6rem;
+        text-align: center;
+    }
+
+    &__subtitle{
+        margin: 3rem auto 0rem;
+        font-size: 2rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    &__image{
+        width: 100%;
+        margin: 4rem auto 0rem;
+    }
+
+    &__caption{
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+    }
+}

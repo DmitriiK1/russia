@@ -1,0 +1,98 @@
+body {
+  background-color: #2A2C2F;
+  color: #f2f2f2;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90vw;
+}
+
+.header .logo {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  background-image: url("../image/logo.png");
+  width: 20vw;
+}
+
+.header__langs {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.header__lang {
+  color: #f2f2f2;
+}
+
+.lead {
+  width: 90vw;
+  margin: 3rem auto 0rem;
+  font-family: Inter;
+  font-style: normal;
+}
+
+.lead__title {
+  margin: 0rem auto;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 6rem;
+  text-align: center;
+}
+
+.lead__subtitle {
+  margin: 3rem auto 0rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.lead__image {
+  width: 100%;
+  margin: 4rem auto 0rem;
+}
+
+.lead__caption {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}
+
+.intro {
+  width: 90vw;
+  margin: 5rem auto 0rem;
+  font-family: Inter;
+  font-style: normal;
+}
+
+.intro__title {
+  margin: 0rem;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+
+.intro__content-row {
+  width: 67.5%;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+.intro__texts {
+  width: 37%;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+}
+
+.photo-grid {
+  width: 90vw;
+  margin: 6rem auto 0rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 0.2rem;
+}
+/*# sourceMappingURL=style.css.map */

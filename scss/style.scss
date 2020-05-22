@@ -1,0 +1,9 @@
+body{
+    background-color: #2A2C2F;
+    color: #f2f2f2;
+}
+
+@import "../blocks/header/header";
+@import "../blocks/lead/lead";
+@import "../blocks/intro/intro";
+@import "../blocks/photo-grid/photo-grid";
