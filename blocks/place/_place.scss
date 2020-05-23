@@ -1,0 +1,32 @@
+.places{
+    width: 80vw;
+    margin: 6.3rem auto 0rem;
+}
+.place{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5.2rem auto 0rem;
+    justify-content: space-between;
+
+    &__:first-child{
+        margin-top: 0rem;
+    }
+
+    &__title{
+        width: 28.75rem;
+        //margin-right: 2rem;
+    }
+
+    &__website{
+        width: 28.75rem;
+    }
+
+    &__image{
+        flex-basis: 28.75rem;
+        //margin-right: 2rem;
+    }
+
+    &__description{
+        flex-basis: 28.75rem;
+    }
+}
