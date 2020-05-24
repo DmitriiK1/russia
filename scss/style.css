@@ -176,4 +176,27 @@ body {
   font-size: 1.2rem;
   line-height: 1.9rem;
 }
+
+.video {
+  width: 90vw;
+  margin: 6.3rem auto 0rem;
+}
+
+.video__title {
+  width: 50rem;
+  margin: 0rem auto;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 4.6rem;
+}
+
+.video__container {
+  width: 100%;
+}
+
+.video__item {
+  width: 49%;
+}
 /*# sourceMappingURL=style.css.map */
