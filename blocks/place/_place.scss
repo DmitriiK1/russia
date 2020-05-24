@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     margin: 5.2rem auto 0rem;
     justify-content: space-between;
+    color: #ffffff;
 
     &__:first-child{
         margin-top: 0rem;
@@ -14,19 +15,56 @@
 
     &__title{
         width: 28.75rem;
-        //margin-right: 2rem;
+        margin: 0rem;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 4.5rem;
+        line-height: 4.6rem;
     }
 
     &__website{
         width: 28.75rem;
+    
+    &_url-heading{
+        margin: 0rem auto 1rem;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.8rem;
+        line-height: 1rem;
+        letter-spacing: 0.2em;
+        color: #AAAAAA;
+    }
+
+        &_url{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.2rem;
+            line-height: 1.9rem;
+            text-decoration-line: underline;
+            transition: opacity 0.5s ease-in;
+            color: #FFFFFF;
+        }
     }
 
     &__image{
         flex-basis: 28.75rem;
-        //margin-right: 2rem;
+        margin-top: 3.2rem;
     }
 
     &__description{
         flex-basis: 28.75rem;
+        margin-top: 3.2rem;
+    }
+    
+    &__paragraph{
+        margin: 0rem;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.2rem;
+        line-height: 1.9rem;
     }
 }
