@@ -60,7 +60,7 @@
             <h3 class="place__title">Куршская коса</h3>
             <div class="place__website">
                 <p class="place__website place__website_url-heading">URL</p>
-                <a class="place__website place__website_url" href="http://park-kosa.ru/">park-kosa.ru</a>
+                <a class="place__website place__website_url" href="http://park-kosa.ru/" target="blank">park-kosa.ru </a>
             </div>
             <img class="place__image" src="./image/__image.jpg" alt="">
             <div class="place__description">
@@ -81,7 +81,7 @@
             <h3 class="place__title">Кольский</h3>
             <div class="place__website">
                 <p class="place__website place__website_url-heading">URL</p>
-                <a class="place__website place__website_url" href="http://park-kosa.ru/">National Geographic</a>
+                <a class="place__website place__website_url" href="http://park-kosa.ru/" target="blank">National Geographic</a>
             </div>
             <img class="place__image" src="./image/__image1.jpg" alt="">
             <div class="place__description">
@@ -102,7 +102,7 @@
             <div class="place__website">
                 <p class="place__website place__website_url-heading">URL</p>
                 <a class="place__website place__website_url"
-                    href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+                    href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="blank">Facebook</a>
             </div>
             <img class="place__image" src="./image/__image2.jpg" alt="">
             <div class="place__description">
@@ -123,7 +123,7 @@
             <div class="place__website">
                 <p class="place__website place__website_url-heading">URL</p>
                 <a class="place__website place__website_url"
-                    href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+                    href="https://vk.com/baikalmile" target="blank">https://vk.com/baikalmile</a>
             </div>
             <img class="place__image" src="./image/__image3.jpg" alt="">
             <div class="place__description">
@@ -143,7 +143,7 @@
             <h3 class="place__title">Карелия</h3>
             <div class="place__website">
                 <p class="place__website place__website_url-heading">URL</p>
-                <a class="place__website place__website_url" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
+                <a class="place__website place__website_url" href="http://vodlozero.ru/" target="blank">http://vodlozero.ru/</a>
             </div>
             <img class="place__image" src="./image/__image4.jpg" alt="">
             <div class="place__description">
@@ -163,21 +163,62 @@
         <h4 class="video__subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные
             исследования</h4>
         <div class="video__container">
-            <div class="video__item"><iframe
-                    src="https://player.vimeo.com/video/81106671?color=ffffff"
+            <div class="video__item">
+                <img class="video__placeholder" src="https://via.placeholder.com/180x100" alt="">
+                <iframe src="https://player.vimeo.com/video/81106671?color=ffffff"
                     style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
-                    allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-            <script src="https://player.vimeo.com/api/player.js"></script>
-        <div class="video__item"><iframe
-                    src="https://player.vimeo.com/video/290675450?color=ffffff"
-                     frameborder="0"
-                    allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-            <script src="https://player.vimeo.com/api/player.js"></script>
+                    allow="autoplay; fullscreen" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video__item">
+                <img class="video__placeholder" src="https://via.placeholder.com/180x100" alt="">
+                <iframe src="https://player.vimeo.com/video/290675450?color=ffffff"
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                    allow="autoplay; fullscreen" allowfullscreen>
+                </iframe>
+            </div>
 
             <!-- <iframe src="https://player.vimeo.com/video/81106671" width="640" height="360" frameborder="0"
                 allow="autoplay; fullscreen" allowfullscreen></iframe> -->
         </div>
     </section>
+    <section class="comments">
+        <h5 class="comments__title title">Фотографы, снимающие Россию</h5>
+        <h6 class="comments__subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных
+            конкурсах</h6>
+        <div class="container">
+            <div class="container__comment">
+                <img class="container__image" src="./image/untitled.jpg" alt="">
+                <p class="container__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте
+                    “наружу”…»</p>
+                <p class="container__author">Виктор Лягушкин</p>
+            </div>
+            <div class="container__comment">
+                <img class="container__image" src="./image/untitled (1).jpg" alt="">
+                <p class="container__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или
+                    фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью,
+                    рабочими местами и в конечном счёте наполняют его жизнью.»</p>
+                <p class="container__author">Иван Хафизов</p>
+            </div>
+            <div class="container__comment">
+                <img class="container__image" src="./image/untitled (2).jpg" alt="">
+                <p class="container__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь,
+                    как им плохо, то ты сволочь и всё очернил.»</p>
+                <p class="container__author">Сергей Максимишин</p>
+            </div>
+        </div>
+    </section>
+    <section class="cover">
+        <img class="cover__image" src="./image/cover-bg.jpg" alt="Железная дорога">
+        <a class="cover__container" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе и
+                iframes — путешествие от столицы до
+                Байкала на электричках.</p>
+        </a>
+    </section>
+    
+    <script src="https://player.vimeo.com/api/player.js"></script>
 </body>
 
 </html>

@@ -3,6 +3,15 @@ body {
   color: #f2f2f2;
 }
 
+.title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 4.6rem;
+  text-align: center;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -190,13 +199,136 @@ body {
   font-weight: 900;
   font-size: 4.5rem;
   line-height: 4.6rem;
+  text-align: center;
+}
+
+.video__subtitle {
+  width: 40rem;
+  margin: 3rem auto 0rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
 }
 
 .video__container {
   width: 100%;
+  margin: 4.5rem auto 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .video__item {
   width: 49%;
+  position: relative;
+}
+
+.video__placeholder {
+  width: 100%;
+}
+
+.comments {
+  width: 90vw;
+  margin: 102px auto 0px;
+}
+
+.comments__title {
+  width: 800px;
+  margin: 0px auto;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 4.6rem;
+  text-align: center;
+}
+
+.comments__subtitle {
+  width: 640px;
+  margin: 48px auto 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  margin: 72px auto 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container__comment {
+  width: 382px;
+}
+
+.container__image {
+  border-radius: 50%;
+}
+
+.cover {
+  position: relative;
+  width: 90vw;
+  margin: 102px auto 0px;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.cover__container {
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-decoration: none;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+.cover__title {
+  position: absolute;
+  margin: 0px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+  z-index: 100;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 1.1;
+}
+
+.cover__subtitle {
+  position: absolute;
+  margin: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 48px;
+  width: 382px;
+  z-index: 100;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 1.44;
+  text-align: center;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */

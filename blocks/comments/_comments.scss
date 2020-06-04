@@ -1,10 +1,10 @@
-.video{
+.comments{
     width: 90vw;
-    margin: 6.3rem auto 0rem;
+    margin: 102px auto 0px;
 
     &__title{
-        width: 50rem;
-        margin: 0rem auto;
+        width: 800px;
+        margin: 0px auto;
         font-family: Inter;
         font-style: normal;
         font-weight: 900;
@@ -14,8 +14,8 @@
     }
 
     &__subtitle{
-        width: 40rem;
-        margin: 3rem auto 0rem;
+        width: 640px;
+        margin: 48px auto 0px;
         font-family: Inter;
         font-style: normal;
         font-weight: normal;
@@ -24,19 +24,20 @@
         text-align: center;
     }
 
-    &__container{
-        width: 100%;
-        margin: 4.5rem auto 0rem;
-        display: flex;
-        justify-content: space-between;
+    
+}
+.container{
+    width: 100%;
+    margin: 72px auto 0px;
+    display: flex;
+    justify-content: space-between;
+
+    &__comment{
+        width: 382px;
+    }
+    
+    &__image{
+        border-radius: 50%;
     }
 
-    &__item{
-        width: 49%;
-        position: relative;
-    }
-
-    &__placeholder{
-        width: 100%;
-    }
 }

@@ -1,0 +1,47 @@
+.cover{
+    position: relative;
+    width: 90vw;
+    margin: 102px auto 0px;
+    text-decoration: none;
+    color: #f2f2f2;
+    
+    &__container{
+        display: block;
+        position: absolute;
+        right: 0;
+        left: 0; 
+        top: 0; 
+        bottom: 0;
+        text-decoration: none;
+        color: #f2f2f2;
+        text-align: center;
+    }
+    &__title{
+        position: absolute;
+        margin: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        z-index: 100;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 4.5rem;
+        line-height: 1.1;
+    }
+    &__subtitle{
+        position: absolute;
+        margin: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 48px;
+        width: 382px;
+        z-index: 100;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.1rem;
+        line-height: 1.44;
+        text-align: center;
+        color: #FFFFFF;}
+}
