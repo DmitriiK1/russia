@@ -1,11 +1,12 @@
 .header{
     display: flex;
     width: 90vw;
+    margin: 0px auto;
+    justify-content: space-between;
 
     .logo{
         align-self: flex-start;
-        background-image: url('../image/logo.png');
-        width: 20vw;
+        width: 176px;
     }
 
     &__langs{
@@ -13,6 +14,13 @@
     }
 
     &__lang{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+        text-align: right;
+        text-decoration-line: none;
         color: #f2f2f2;
     }
 }

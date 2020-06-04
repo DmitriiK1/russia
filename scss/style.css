@@ -17,13 +17,16 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 90vw;
+  margin: 0px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header .logo {
   -ms-flex-item-align: start;
       align-self: flex-start;
-  background-image: url("../image/logo.png");
-  width: 20vw;
+  width: 176px;
 }
 
 .header__langs {
@@ -32,6 +35,14 @@ body {
 }
 
 .header__lang {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  text-align: right;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
   color: #f2f2f2;
 }
 
