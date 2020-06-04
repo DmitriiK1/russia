@@ -1,3 +1,5 @@
+@import "./container/container";
+
 .comments{
     width: 90vw;
     margin: 102px auto 0px;
@@ -22,22 +24,5 @@
         font-size: 1.5rem;
         line-height: 2rem;
         text-align: center;
-    }
-
-    
-}
-.container{
-    width: 100%;
-    margin: 72px auto 0px;
-    display: flex;
-    justify-content: space-between;
-
-    &__comment{
-        width: 382px;
-    }
-    
-    &__image{
-        border-radius: 50%;
-    }
-
+    }   
 }

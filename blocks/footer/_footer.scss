@@ -1,0 +1,28 @@
+.footer{
+    width: 90vw;
+    margin: 100px auto 0px;
+    display: flex;
+    :last-child {
+        flex-grow: 2;
+    }
+
+    &__link{
+        margin: 0px 18px 0px 0px;
+        text-decoration: none;
+        color: #f2f2f2;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    &__copyright{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.9rem;
+        line-height: 1.25rem;
+        text-align: right;
+    }
+}
