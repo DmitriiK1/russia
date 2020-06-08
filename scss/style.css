@@ -48,13 +48,13 @@ body {
 
 .lead {
   width: 90vw;
-  margin: 3rem auto 0rem;
+  margin: 48px auto 0rem;
   font-family: Inter;
   font-style: normal;
 }
 
 .lead__title {
-  margin: 0rem auto;
+  margin: 0px auto;
   font-weight: 900;
   font-size: 6rem;
   line-height: 6rem;
@@ -62,7 +62,8 @@ body {
 }
 
 .lead__subtitle {
-  margin: 3rem auto 0rem;
+  margin: 48px auto 0px;
+  width: 583px;
   font-size: 2rem;
   line-height: 2rem;
   text-align: center;
@@ -70,24 +71,24 @@ body {
 
 .lead__image {
   width: 100%;
-  margin: 4rem auto 0rem;
+  margin: 78px auto 0px;
 }
 
 .lead__caption {
-  margin-top: 1rem;
+  margin-top: 16px;
   font-size: 0.8rem;
   line-height: 0.8rem;
 }
 
 .intro {
   width: 90vw;
-  margin: 5rem auto 0rem;
+  margin: 100px auto 0px;
   font-family: Inter;
   font-style: normal;
 }
 
 .intro__title {
-  margin: 0rem;
+  margin: 0px;
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 3.5rem;
@@ -108,17 +109,22 @@ body {
 
 .photo-grid {
   width: 90vw;
-  margin: 6rem auto 0rem;
+  margin: 90px auto 0px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  grid-row-gap: 0.2rem;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.photo-grid__item {
+  width: 100%;
 }
 
 .places {
   width: 80vw;
-  margin: 6.3rem auto 0rem;
+  margin: 92px auto 0px;
 }
 
 .place {
@@ -127,7 +133,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 5.2rem auto 0rem;
+  margin: 72px auto 0px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -135,12 +141,13 @@ body {
 }
 
 .place__:first-child {
-  margin-top: 0rem;
+  margin-top: 0px;
 }
 
 .place__title {
-  width: 28.75rem;
-  margin: 0rem;
+  width: 457px;
+  margin: 0px;
+  margin-right: 40px;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
@@ -149,11 +156,11 @@ body {
 }
 
 .place__website {
-  width: 28.75rem;
+  width: 484px;
 }
 
 .place__website_url-heading {
-  margin: 0rem auto 1rem;
+  margin: 0px auto 16px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -177,19 +184,20 @@ body {
 }
 
 .place__image {
-  -ms-flex-preferred-size: 28.75rem;
-      flex-basis: 28.75rem;
-  margin-top: 3.2rem;
+  -ms-flex-preferred-size: 457px;
+      flex-basis: 457px;
+  margin-top: 60px;
+  margin-right: 40px;
 }
 
 .place__description {
-  -ms-flex-preferred-size: 28.75rem;
-      flex-basis: 28.75rem;
-  margin-top: 3.2rem;
+  -ms-flex-preferred-size: 484px;
+      flex-basis: 484px;
+  margin-top: 60px;
 }
 
 .place__paragraph {
-  margin: 0rem;
+  margin: 0px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;

@@ -1,21 +1,22 @@
 .places{
     width: 80vw;
-    margin: 6.3rem auto 0rem;
+    margin: 92px auto 0px;
 }
 .place{
     display: flex;
     flex-wrap: wrap;
-    margin: 5.2rem auto 0rem;
+    margin: 72px auto 0px;
     justify-content: space-between;
     color: #ffffff;
 
     &__:first-child{
-        margin-top: 0rem;
+        margin-top: 0px;
     }
 
     &__title{
-        width: 28.75rem;
-        margin: 0rem;
+        width: 457px;
+        margin: 0px;
+        margin-right: 40px;
         font-family: Inter;
         font-style: normal;
         font-weight: 900;
@@ -24,10 +25,10 @@
     }
 
     &__website{
-        width: 28.75rem;
+        width: 484px;
     
     &_url-heading{
-        margin: 0rem auto 1rem;
+        margin: 0px auto 16px;
         font-family: Inter;
         font-style: normal;
         font-weight: normal;
@@ -50,17 +51,19 @@
     }
 
     &__image{
-        flex-basis: 28.75rem;
-        margin-top: 3.2rem;
+        flex-basis: 457px;
+        margin-top: 60px;
+        margin-right: 40px;
+
     }
 
     &__description{
-        flex-basis: 28.75rem;
-        margin-top: 3.2rem;
+        flex-basis: 484px;
+        margin-top: 60px;
     }
     
     &__paragraph{
-        margin: 0rem;
+        margin: 0px;
         font-family: Inter;
         font-style: normal;
         font-weight: normal;
